@@ -1,0 +1,64 @@
+.accordian-Div{
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
+    background-color:black;
+    position: absolute;
+}
+.accordian-Div h1{
+    color: #fff;
+    font-weight:900;
+    font-size: 50px;
+}
+#accordion{
+    width: 70%;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 2%;
+}
+
+footer{
+    width: 100%;
+   height: fit-content;
+    background-color:black;
+    margin-top: auto;
+    margin-top: 1%;
+    position: absolute;
+    margin-top: 350px;
+
+   }
+   footer h6{
+    color: white;
+    margin-top: 1%;
+    margin-left: 20.5%;
+   }
+   .container-footer{
+       height: 300px;
+       width: 100%;
+       margin-left: 15%;
+   }
+   .footercontent{
+       width: 20%;
+       margin-top: 1%;
+       float: left;
+       margin-top: 2%;
+       margin-left: 40px;
+   
+   }
+   
+   .footercontent a{
+   text-decoration: none;
+   }
+   .footercontent p{
+       font-weight:lighter;
+       color: grey;
+       font-weight: 900;
+   }
+   .footercontent .fa{
+       font-size: 25px;
+       width: 35px;
+       height: 35px;
+       text-align: center;
+       text-decoration: none;
+       border-radius: 50%;
+   }

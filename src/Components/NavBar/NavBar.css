@@ -21,3 +21,7 @@ position: fixed;
 right: 20px;
 width: 30px;
 }
+#input-text{
+    width: 15%;
+    margin-left: 80%;
+}

@@ -5,15 +5,10 @@
 }
 .posters
 {
-    display: flex;
+    display:flex;
     padding: 20px;
-    max-height: 250px;
-    overflow-x: scroll;
+    overflow-x:scroll;
     overflow-y: hidden;
-  
-    margin-right: 10px;
-
-
 }
 .posters::-webkit-scrollbar
 {
@@ -21,12 +16,30 @@
 }
 .poster
 {
+    cursor: pointer;
     max-width: 250px;  
     margin-right: 10px;  
 }
-.smallPoster
-{
-    max-height: 100px;
-    margin-right: 10px; 
 
+.smallPoster{
+    cursor: pointer;
+    max-height: 100px;
+    margin-right: 10px;  
+}
+.onclick-Button{
+    border: 0.1px solid rgb(30, 70, 215);
+    width: 55%;
+    margin-left: 22%;
+    padding: 1%;
+    margin-top: 1%;
+    background-color:chartreuse;
+    border-radius: 2%;
+}
+.onclick-Button h1{
+    margin-top: 5%;
+    color: black;
+}
+.youtube{
+    margin-left: 25%;
+   
 }
